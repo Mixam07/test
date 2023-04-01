@@ -1,0 +1,314 @@
+.wrapper{
+    background: url("../../assets/img/bg/mintportal/mintportal.jpg") 0 0/100% 100% no-repeat;
+    position: relative;
+}
+
+.wrapper > div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.wrapper > div img{
+    width: 100%;
+    height: 100vh;
+}
+
+.flies{
+    display: none;
+}
+
+.social{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    width: 56%;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.href{
+    display: block;
+    width: 26%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.href:nth-child(2){
+    width: 36%;
+}
+
+
+.href:nth-child(3){
+    width: 27.5%;
+}
+
+.form{
+    position: absolute;
+    top: 49%;
+    left: 36.75%;
+    width: 26.25%;
+    height: 44.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.title,
+.caption,
+.text,
+.text,
+.btn,
+.special{
+    font-family: "Verdana";
+    color: #fff;
+}
+
+.title{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 7.5%;
+    position: relative;
+}
+
+.title::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #fff;
+}
+
+.special{
+    color: #04F602;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7.5%;
+    position: relative;
+    align-items: center;
+}
+
+.wrap::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #E14B4B;
+}
+
+.settings{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caption,
+.text{
+    font-size: 24px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.dash{
+    display: block;
+    width: 15px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.text{
+    margin-left: 10px;
+    width: 50px;
+}
+
+.btn{
+    width: 100%;
+    background-color: red;
+    height: 15%;
+    font-size: 26px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.button{
+    position: absolute;
+    top: 25.5%;
+    left: 38%;
+    width: 23.75%;
+    height: 8%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+@media (max-width: 1600px){
+    .title{
+        font-size: 22px;
+    }
+
+    .text,
+    .caption{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1400px){
+    .title{
+        font-size: 18px;
+    }
+
+    .text,
+    .caption{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .title{
+        font-size: 16px;
+    }
+
+    .text,
+    .caption{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px){
+    .title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .text,
+    .caption{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 762px){
+    .wrapper{
+        background: url("../../assets/img/bg/mintportal/mintportal_mobile.jpg") 0 0/100% 100% no-repeat;
+    }
+
+    .flies{
+        display: block;
+    }
+
+    .social{
+        top: 4.5%;
+        left: 9%;
+        height: 7.5%;
+        width: 81%;
+    }
+
+    .href:nth-child(1),
+    .href:nth-child(2),
+    .href:nth-child(3){
+        width: 19%;
+    }
+
+    .button{
+        top: 19%;
+        left: 24%;
+        width: 54%;
+        height: 5.5%;
+    }
+
+    .form{
+        top: 57.5%;
+        left: 9.5%;
+        width: 81%;
+        height: 37%;
+    }
+
+    .wrap{
+        padding-bottom: 5%;
+    }
+
+    .title{
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
+
+    .text,
+    .caption{
+        font-size: 26px;
+    }
+
+    .btn{
+        font-size: 38px;
+        height: 22.5%;
+    }
+
+    .form{
+        padding: 2.5%;
+    }
+}
+
+@media (max-width: 576px){
+    .form{
+        padding: 3%;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .btn{
+        font-size: 32px;
+        height: 20%;
+    }
+
+    .text,
+    .caption{
+        font-size: 24px;
+    }
+
+    .dash{
+        width: 10px;
+        height: 3px;
+    }
+}
+
+@media (max-width: 425px){
+    .title{
+        font-size: 17px;
+    }
+
+    .text,
+    .caption{
+        font-size: 16px;
+    }
+
+    .btn{
+        font-size: 26px;
+        height: 20%;
+    }
+
+    .btn{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 375px){
+    .btn{
+        font-size: 20px;
+    }
+}

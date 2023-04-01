@@ -6,10 +6,27 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "classnames": "^2.3.2",
+    "formik": "^2.2.9",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "node-libs-browser": "^2.2.1",
+    "nth-check": "^2.1.1",
+    "os": "^0.1.2",
+    "os-browserify": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.2.1",
+    "request": "^2.88.2",
+    "url": "^0.11.0",
+    "walletconnect": "^1.7.8",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +51,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "https-browserify": "^1.0.0",
+    "stream-http": "^3.2.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
